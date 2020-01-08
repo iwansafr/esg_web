@@ -41,7 +41,7 @@ if(!empty($content))
 				{
 					$title = 'image for '.$content['title'];
 					?>
-					<img src="<?php echo image_module('content', 'gallery'.'/'.$content['id'].'/'.$value);?>"  data-toggle="modal" data-target="#img-<?php echo $i;?>" class="img-responsive" style="object-fit: cover;width: 100px;height: 100px; margin: 5px;">
+					<img src="<?php echo image_module('content', 'gallery'.'/'.$content['id'].'/'.$value);?>"  data-toggle="modal" data-target="#img-<?php echo $i;?>" class="" style="object-fit: cover;width: 100px;height: 100px; margin: 5px;">
 					<!-- Modal -->
 					<div class="modal fade" id="img-<?php echo $i;?>" tabindex="-1" role="dialog" aria-labelledby="img-<?php echo $i;?>" aria-hidden="true">
 					  <div class="modal-dialog modal-lg" role="document">
